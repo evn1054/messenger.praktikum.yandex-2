@@ -1,0 +1,22 @@
+<li class="dialog__container">
+    <div class="dialog__container-hover"></div>
+    <div class="dialog__item">
+        <div class="dialog__item-circle">
+            {{Avatar this=this}}
+        </div>
+    </div>
+    <div class="dialog__item">
+        <div class="dialog__item-row">
+            <label for="" class="dialog__name">{{this.dialogName}}</label>
+            <div class="dialog__date">{{ dateTransform this.dialogDate }}</div>
+        </div>
+        <label for="" class="dialog__description">{{this.dialogDescription}}</label>
+    </div>
+    {{#if this.dialogNotification}}
+        <div class="dialog__notification-circle">
+            <div class="dialog__notification">{{this.dialogNotification}}</div>
+        </div>
+    {{/if}}
+</li>
+
+
