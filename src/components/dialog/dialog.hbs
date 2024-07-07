@@ -1,11 +1,9 @@
 <li class="dialog__container">
     <div class="dialog__container-hover"></div>
     <div class="dialog__item">
-        <div class="dialog__item-circle">
-            {{Avatar this=this}}
-        </div>
+        {{> Avatar image=this.dialogImage name=this.dialogName}}
     </div>
-    <div class="dialog__item">
+    <div class="dialog__item dialog__content">
         <div class="dialog__item-row">
             <label for="" class="dialog__name">{{this.dialogName}}</label>
             <div class="dialog__date">{{ dateTransform this.dialogDate }}</div>

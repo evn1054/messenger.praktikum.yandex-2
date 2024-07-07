@@ -13,45 +13,18 @@
             {{/each}}
         </ul>
     </div>
-    <div class="chat-field chat-is-hidden">
+    <div class="chat-field chat-is-hidden chat-default">
         <p class="chat-field__text">Выберите чат чтобы отправить сообщение</p>
     </div>
     <div class="chat-field chat-field-dialog">
         <div class="chat__header">
-            <h2>header</h2>
+            {{> ChatHeader (currentChatData) }}
         </div>
         <div class="chat__main">
-            <h2>main</h2>
-            <h2>main</h2>
-            <h2>main</h2>
-            <h2>main</h2>
-            <h2>main</h2>
-            <h2>main</h2>
-            <h2>main</h2>
-            <h2>main</h2>
-            <h2>main</h2>
-            <h2>main</h2>
-            <h2>main</h2>
-            <h2>main</h2>
-            <h2>main</h2>
-            <h2>main</h2>
-            <h2>main</h2>
-            <h2>main</h2>
-            <h2>main</h2>
-            <h2>main</h2>
-            <h2>main</h2>
-            <h2>main</h2>
-            <h2>main</h2>
-            <h2>main</h2>
-            <h2>main</h2>
-            <h2>main</h2>
-            <h2>main</h2>
-            <h2>main</h2>
-            <h2>main</h2>
-            <h2>main</h2>
+            {{> ChatMain (currentChatData) }}
         </div>
         <div class="chat__footer">
-            <h2>footer</h2>
+            {{> ChatFooter }}
         </div>
     </div>
 </div>

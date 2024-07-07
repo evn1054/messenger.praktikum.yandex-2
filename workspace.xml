@@ -4,62 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c29cf31e-32bf-4b98-9edb-bd355a083203" name="Changes" comment="sprint_1 project init">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/search.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/avatar/avatar.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/avatar/avatar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/avatar/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/dialog/dialog.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/dialog/dialog.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/dialog/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/errorPageComponent/errorPageComponent.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/errorPageComponent/errorPageComponent.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/errorPageComponent/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/formWrapper/formWrapper.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/formWrapper/formWrapper.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/formWrapper/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/searchInput/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/searchInput/search.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/searchInput/searchInput.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/searchInput/searchInput.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/chatList/chatList.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/chatList/chatList.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/chatList/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/chatList/ololol.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/errorPages/pageNotFound/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/errorPages/pageNotFound/pageNotFound.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/errorPages/serverError/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/errorPages/serverError/serverError.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/login/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/login/login.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/login/login.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/navigate/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/navigate/navigate.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/registration/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/registration/registration.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/registration/registration.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendor/fonts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendor/fonts/Inter-Medium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendor/fonts/Inter-Medium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendor/fonts/Inter-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendor/fonts/Inter-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendor/fonts/Inter-SemiBold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendor/fonts/Inter-SemiBold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendor/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/messenger.praktikum.yandex.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vcs.xml" beforeDir="false" />
+    <list default="true" id="c29cf31e-32bf-4b98-9edb-bd355a083203" name="Changes" comment="sprint_1 set errors, login, registration, chats pages">
+      <change afterPath="$PROJECT_DIR$/src/assets/images/attach.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/burger.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/isNotRead-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/isRead-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/send-arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/burgerMenu/burgerMenu.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/burgerMenu/burgerMenu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/burgerMenu/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/chatFooter/chatFooter.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/chatFooter/chatFooter.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/chatFooter/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/chatHeader/chatHeader.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/chatHeader/chatHeader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/chatHeader/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/chatMain/chatMain.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/chatMain/chatMain.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/chatMain/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/message/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/message/message.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/message/message.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/avatar/avatar.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/avatar/avatar.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/avatar/avatar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/avatar/avatar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/dialog/dialog.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dialog/dialog.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/dialog/dialog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dialog/dialog.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/chatList/chatList.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/chatList/chatList.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/chatList/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/chatList/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +83,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/a12/IdeaProjects/messenger.praktikum.yandex/src/vendor",
+    "last_opened_file_path": "/Users/a12/IdeaProjects/messenger.praktikum.yandex/src/assets/images",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -120,16 +96,17 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/images" />
       <recent name="$PROJECT_DIR$/src/vendor" />
       <recent name="$PROJECT_DIR$/src/vendors" />
       <recent name="$PROJECT_DIR$/src/components/searchInput" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components/avatar" />
+      <recent name="$PROJECT_DIR$/src/assets/images" />
       <recent name="$PROJECT_DIR$/src/pages/chatList" />
+      <recent name="$PROJECT_DIR$/src/components/avatar" />
       <recent name="$PROJECT_DIR$/src/data" />
       <recent name="$PROJECT_DIR$/src/assets" />
-      <recent name="$PROJECT_DIR$/src/components" />
     </key>
   </component>
   <component name="RunManager">
@@ -157,7 +134,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712313516313</updated>
-      <workItem from="1712313517417" duration="88767000" />
+      <workItem from="1712313517417" duration="115967000" />
     </task>
     <task id="LOCAL-00001" summary="sprint_1 project init">
       <option name="closed" value="true" />
@@ -167,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712315646675</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="sprint_1 set errors, login, registration, chats pages">
+      <option name="closed" value="true" />
+      <created>1713104181901</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713104181901</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +171,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="sprint_1 project init" />
-    <option name="LAST_COMMIT_MESSAGE" value="sprint_1 project init" />
+    <MESSAGE value="sprint_1 set errors, login, registration, chats pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="sprint_1 set errors, login, registration, chats pages" />
   </component>
 </project>
