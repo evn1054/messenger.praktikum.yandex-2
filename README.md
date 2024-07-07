@@ -1,6 +1,6 @@
 # FlexiChat
 Our messenger provides the user with a convenient and flexible messaging tool, providing reliable and secure real-time communication.
-[Official website](https://www.wikipedia.org/)
+[Official website](https://flexichat.netlify.app/)
 
 ### Installation
 1. ```npm install``` — install the stable version,
