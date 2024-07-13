@@ -22,7 +22,7 @@
     &__avatar {
       width: 34px;
       height: 34px;
-      border-radius: 50%;
+      border-radius: $rounding_001;
       background-color: $grey2;
       object-fit: cover;
     }

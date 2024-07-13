@@ -16,7 +16,8 @@ const pages = {
   'pageNotFound': [ Pages.PageNotFound ],
   'serverError': [ Pages.ServerError ],
   'chatList': [ Pages.ChatList ],
-  'nav': [ Pages.NavigatePage ]
+  'nav': [ Pages.NavigatePage ],
+  'profile': [ Pages.ProfilePage]
 };
 
 Object.entries(Components).forEach(([ name, component ]) => {
@@ -123,6 +124,17 @@ Handlebars.registerHelper("currentChatData", () => {
     ]
   });
 })
+Handlebars.registerHelper('profileInfo', () => {
+  return {
+    'image': 'https://via.placeholder.com/600/f66b97',
+    'name': 'Иван',
+    'surname': 'Иванов',
+    'chatName': 'Иван',
+    'phone': '+7 (909) 967 30 30',
+    'email': 'pochta@yandex.ru',
+    'login': 'ivanivanov',
+  }
+} )
 Handlebars.registerHelper('chatListData', ():IDialogData[] => {
   return [
     {

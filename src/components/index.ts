@@ -10,4 +10,9 @@ export { ChatFooter } from './chatFooter';
 export { ChatMain } from './chatMain';
 export { BurgerMenu } from './burgerMenu';
 export { Message } from './message';
+export { ProfileAvatar } from './profileAvatar';
+export { UserName } from './userName';
+export { ProfileMainInfo } from './profileMainInfo';
+export { ProfileMainInfoList } from './profileMainInfoList';
+export { IconButton } from './iconButton';
 

@@ -2,7 +2,6 @@
     <p class="main__date">19 июня</p>
     <ul class="main__messages">
         {{#each this.messages}}
-            {{log "this.messages" this}}
             {{> Message this=this.messages}}
         {{/each}}
     </ul>

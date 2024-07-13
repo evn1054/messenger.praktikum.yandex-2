@@ -7,7 +7,7 @@
   display: block;
   width: 100%;
   padding: 12px 0;
-  border-radius: 8px;
+  border-radius: $rounding_002;
   cursor: pointer;
 
   &__primary {
@@ -16,17 +16,21 @@
     font-size: $font-size_005;
   }
 
-  &__link {
+  &__link, &__profile-link {
     color: $primary-color;
     font-size: $font-size_003;
     text-align: center;
+  }
+
+  &__profile-link {
+    padding: 0;
   }
 
   &-arrow {
     background-color: $primary-color;
     height: 28px;
     width: 28px;
-    border-radius: 50%;
+    border-radius: $rounding_001;
 
     &__left,
     &__right {
